@@ -10,9 +10,9 @@ public class SmartPhone extends Celular{
 	public SmartPhone(String marca, String modelo, String color, float pixelesCamara, float tamanioMemoriaRam,
 			float tamaoDisco) {
 		super(marca, modelo, color);
-		///this.pixelesCamara = pixelesCamara;
-		///this.tamanioMemoriaInterna = tamanioMemoriaRam;
-		///this.tamanioMemoriaExterna = tamaoDisco;
+		this.pixelesCamara = pixelesCamara;
+		this.tamanioMemoriaInterna = tamanioMemoriaRam;
+		this.tamanioMemoriaExterna = tamaoDisco;
 	}
 	// método sobrescrito (override), utilizo código de la clase Celular y añado código que necesito 
 	@Override
